@@ -76,6 +76,7 @@ class Timer{ // class start
 
 
     /** 获取microtime
+    * @return float
     */
     private function getMicrotime(){
         list($usec, $sec) = explode(' ', microtime());
